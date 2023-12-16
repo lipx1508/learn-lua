@@ -1,4 +1,4 @@
-# Decision making
+# Chapter 4: Decision making
 Now imagine that you want to run a piece of code if something is true, and else, run another piece of code.
 This is where `if`, `elseif` and `else` comes in!
 
