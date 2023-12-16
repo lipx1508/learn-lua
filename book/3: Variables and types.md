@@ -35,3 +35,5 @@ There are other types, of course, but I will not explain them for now since they
 - Add two numbers inside a variable and print it
 - Multiply `a` by `b` and put it inside the variable `c`
 - Merge two strings inside a variable and print it
+
+[Solutions avaliable here.](solutions/3.md)
