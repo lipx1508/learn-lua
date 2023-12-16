@@ -54,8 +54,6 @@ They consist of the following:
 - `<` ... is smaller than ...
 - `>=` ... is higher or equal to ...
 - `<=` ... is smaller or equal to ...
-- `and` ... and ... are true
-- `or` ... or ... are true
 
 ```lua
 print(1 == 1)
@@ -98,6 +96,43 @@ As you can see:
 - 6 / 2 (1 + 2) is 9, end of the debate.
 
 Also, notice that you can include arithmetics inside conditional operators!
+
+Another thing that is worth mentioning are the `and`, `or` and `not` operators.
+- `and` ... and ... are true
+- `or` ... or ... are true
+- `not` invert the state of ... (`true` becomes `false` and `false` becomes `true`)
+
+Check the following example:
+
+```lua
+print((1 < 2) and (1 > 2))
+print((1 < 2) or (1 > 2))
+print((1 < 2) and not (1 > 2))
+print((1 < 2) or not (1 > 2))
+```
+
+```bash
+false
+true
+true
+true
+```
+
+But how did this happen? We can try to think as the interpreter, 1 is lesser than 2, and 1 is not higher than 2, so the output would be:
+
+```lua
+print(true and false)
+print(true or false)
+print(true and not false)
+print(true or not false)
+```
+
+Now, let's go through each line:
+- both `true` and `false` are `true`? no, then `false` 
+- either `true` and `false` are `true`? yes, then `true` 
+- both `true` and the inverse of `false` (`true`) are `true`? yes, then `true` 
+- either `true` and the inverse of `false` (`true`) are `true`? yes, then `true` 
+
 ## Special operators
 Lua has also some very uncommon operators that you wouldn't usually find in a normal language, but this does not mean they are unuseful! 
 They consist of the following:
