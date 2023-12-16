@@ -8,6 +8,7 @@ So let's take a look at a very simple example:
 a = 5
 if a > 0 then
   print("a is higher than 0!")
+end
 ```
 
 ```bash
@@ -21,6 +22,7 @@ Let's try again...
 a = -5
 if a > 0 then
   print("a is higher than 0!")
+end
 ```
 
 ```bash
@@ -41,6 +43,7 @@ if a > 0 then
   print("a is higher than 0!")
 else
   print("a is lesser than 0.")
+end
 ```
 
 ```bash
@@ -60,6 +63,8 @@ else
     print("a is equal 0!")
   else
     print("a is lesser than 0.")
+  end
+end
 ```
 
 But *eek*, that's very ugly! We could do something way nicer using `elseif`
@@ -72,6 +77,7 @@ elseif a == 0
   print("a is equal 0!")
 else
   print("a is lesser than 0.")
+end
 ```
 
 Way better, shall we? :D
