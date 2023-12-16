@@ -17,7 +17,7 @@ Looks easy huh? Let's try to read the code by parts:
 
 We will use this function to check the things we are doing.
 
-## Some exercises:
+## Some exercises
 - Try changing the "Hello world" field to another text and see how it appears in the console (try adding an emoji to see how it looks too!).
 - Duplicate the line and try printing more even text into the console.
 
