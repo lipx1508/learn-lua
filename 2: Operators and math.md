@@ -1,4 +1,4 @@
-# Operators and math
+# Chapter 2: Operators and math
 Let's start with some math and logic... but don't worry, it won't hurt and it's not really difficult!
 
 ## Arithmetical
