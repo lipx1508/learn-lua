@@ -127,3 +127,5 @@ Cool huh?
 ### Some exercises
 - Check if two conditions are both true
 - Concatenate text with an arithmetical operation and print it
+
+[Solutions avaliable here.](solutions/2.md)
