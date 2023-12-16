@@ -59,7 +59,7 @@ a = -5
 if a > 0 then
   print("a is higher than 0!")
 else
-  if a == 0
+  if a == 0 then
     print("a is equal 0!")
   else
     print("a is lesser than 0.")
@@ -73,7 +73,7 @@ But *eek*, that's very ugly! We could do something way nicer using `elseif`
 a = -5
 if a > 0 then
   print("a is higher than 0!")
-elseif a == 0
+elseif a == 0 then
   print("a is equal 0!")
 else
   print("a is lesser than 0.")
