@@ -1,4 +1,4 @@
-# Hello world!
+# Chapter 1: Hello world!
 The "Hello world!" example consists of the following code:
 
 ```lua
