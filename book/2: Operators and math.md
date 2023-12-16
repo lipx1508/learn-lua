@@ -124,6 +124,6 @@ The text has 3 characters.
 
 Cool huh?
 
-### Some exercises:
+### Some exercises
 - Check if two conditions are both true
 - Concatenate text with an arithmetical operation and print it
