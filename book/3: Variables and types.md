@@ -1,4 +1,4 @@
-# Variables and types
+# Chapter 3: Variables and types
 So imagine this situation: you have a small guessing game that selects a random number between 1 - 10, and you want to see if the number the user types into the console is the same as the one you generated. How would the program store the number the user has typed?
 
 Variables, as their name say, are places that can store values to be modified later at any time.
